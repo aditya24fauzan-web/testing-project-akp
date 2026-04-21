@@ -51,7 +51,9 @@ export default function Footer() {
               <li className="text-gray-500 text-xs uppercase tracking-widest font-semibold flex items-center gap-2"><div className="w-1 h-1 bg-primary"></div> Cold Storage</li>
               <li className="text-gray-500 text-xs uppercase tracking-widest font-semibold flex items-center gap-2"><div className="w-1 h-1 bg-primary"></div> HVAC System</li>
               <li className="text-gray-500 text-xs uppercase tracking-widest font-semibold flex items-center gap-2"><div className="w-1 h-1 bg-primary"></div> Sandwich Panel</li>
-              <li className="text-gray-500 text-xs uppercase tracking-widest font-semibold flex items-center gap-2"><div className="w-1 h-1 bg-primary"></div> Aluminium Extrusion</li>
+              <li className="text-gray-500 text-xs uppercase tracking-widest font-semibold flex items-center gap-2"><div className="w-1 h-1 bg-primary"></div> Automation</li>
+              <li className="text-gray-500 text-xs uppercase tracking-widest font-semibold flex items-center gap-2"><div className="w-1 h-1 bg-primary"></div> MEP</li>
+            
             </ul>
           </div>
 
