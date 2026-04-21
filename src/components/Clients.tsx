@@ -26,12 +26,12 @@ export default function Clients() {
           {[...clientLogos, ...clientLogos].map((logo, index) => (
             <div 
               key={index} 
-              className="flex items-center justify-center px-12 mx-8 bg-transparent transition-all cursor-pointer min-w-[200px]"
+              className="flex items-center justify-center px-16 mx-12 bg-transparent transition-all cursor-pointer min-w-[300px]"
             >
               <img 
                 src={`${logo}`} 
                 alt={`Client Logo ${index}`} 
-                className="h-24 md:h-32 w-auto object-contain transition-all duration-300 hover:scale-110"
+                className="h-32 md:h-48 w-auto object-contain transition-all duration-300 hover:scale-110"
               />
             </div>
           ))}
