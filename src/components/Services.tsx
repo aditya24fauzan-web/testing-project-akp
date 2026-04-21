@@ -7,21 +7,21 @@ const services = [
     title: 'Clean Room Specialist',
     description: 'Desain, rekayasa, dan konstruksi ruangan steril dengan kendali ketat terhadap partikel udara, suhu, kelembaban, dan tekanan (positif/negatif). Memenuhi standar akreditasi GMP, cGMP, dan CPOB.',
     icon: ShieldAlert,
-    image: '/cr.jpg'
+    image: 'cr.jpg'
   },
   {
     id: 'cold-room',
     title: 'Cold Room / Cold Storage',
     description: 'Implementasi ruang pendingin presisi untuk penyimpanan produk yang rentan suhu (vaksin, farmasi, makanan). Dilengkapi insulasi performa tinggi untuk efisiensi penggunaan daya.',
     icon: Thermometer,
-    image: '/cr.jpg' // Using industrial image for cold room
+    image: 'cr.jpg' // Using industrial image for cold room
   },
   {
     id: 'hvac',
     title: 'Sistem HVAC Industri',
     description: 'Instalasi Heating, Ventilation, dan Air Conditioning berskala industri. Pengaturan aliran tata udara kompleks yang diintegrasikan langsung dengan sistem Clean Room menggunakan sistem HEPA filter.',
     icon: Wind,
-    image: '/hvac.jpg' // Industrial piping
+    image: 'hvac.jpg' // Industrial piping
   }
 ];
 
