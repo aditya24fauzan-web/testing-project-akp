@@ -79,7 +79,7 @@ export default function Products() {
                 alt="Insulated Sandwich Panel Material" 
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-dark/60"></div>
+              <div className="absolute inset-0 bg-dark/30"></div>
             </div>
           </motion.div>
         </div>
@@ -98,7 +98,7 @@ export default function Products() {
                 alt="Aluminium Extrusion Details" 
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-dark/60"></div>
+              <div className="absolute inset-0 bg-dark/30"></div>
             </div>
           </motion.div>
 
