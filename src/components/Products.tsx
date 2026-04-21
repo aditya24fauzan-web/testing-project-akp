@@ -77,9 +77,9 @@ export default function Products() {
               <img 
                 src="sp.jpg" 
                 alt="Insulated Sandwich Panel Material" 
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-dark/60 mix-blend-multiply"></div>
+              <div className="absolute inset-0 bg-dark/60"></div>
             </div>
           </motion.div>
         </div>
@@ -96,9 +96,9 @@ export default function Products() {
               <img 
                 src="alumuniumex.jpg" 
                 alt="Aluminium Extrusion Details" 
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-dark/60 mix-blend-multiply"></div>
+              <div className="absolute inset-0 bg-dark/60"></div>
             </div>
           </motion.div>
 
