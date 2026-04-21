@@ -5,7 +5,7 @@ export default function Clients() {
     "tsm.png", "rsadvent.png", "lc.png", "medion.png", "rsboyolali.png", 
     "biofarma.png", "persada.png", "combiphar.png", "rohto.png", "ot.png", 
     "prochiz.png", "otto.png", "sanbe.png", "rssanto.png", "u.png", 
-    "dlbs.png", "mepro.png", " tirta.png"
+    "dlbs.png", "mepro.png", "tirta.png"
   ];
 
   return (
@@ -16,25 +16,26 @@ export default function Clients() {
         </h2>
       </div>
 
-      <div className="relative w-full flex overflow-hidden group py-4">
+      <div className="relative w-full flex overflow-hidden group py-6">
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-dark to-transparent z-10 pointer-events-none"></div>
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-dark to-transparent z-10 pointer-events-none"></div>
         
         {/* Animated Slider Container */}
         <div className="flex animate-scroll whitespace-nowrap group-hover:[animation-play-state:paused] items-center">
-          {/* Duplicate the array twice to ensure seamless infinite scrolling */}
+          
           {[...clientLogos, ...clientLogos].map((logo, index) => (
             <div 
               key={index} 
-              className="flex items-center justify-center px-16 mx-12 bg-transparent transition-all cursor-pointer min-w-[300px]"
+              className="flex items-center justify-center px-10 mx-6 bg-transparent transition-all cursor-pointer min-w-[400px]"
             >
               <img 
                 src={`${logo}`} 
                 alt={`Client Logo ${index}`} 
-                className="h-32 md:h-48 w-auto object-contain transition-all duration-300 hover:scale-110"
+                className="h-40 md:h-56 w-auto object-contain transition-all duration-300 hover:scale-110"
               />
             </div>
           ))}
+
         </div>
       </div>
 
