@@ -14,7 +14,6 @@ const navLinks = [
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [logoError, setLogoError] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,18 +53,11 @@ export default function Navbar() {
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo Section */}
         <a href="#hero" className="flex items-center gap-2 md:gap-3 group shrink-0">
-          {!logoError ? (
-            <img 
-              src="/logoakp.png" 
-              alt="Logo PT Adipura Karya Persada" 
-              className="h-10 md:h-12 w-auto object-contain shrink-0 bg-white p-1 rounded"
-              onError={() => setLogoError(true)}
-            />
-          ) : (
-            <div className="w-8 h-8 md:w-10 md:h-10 border-2 border-primary flex items-center justify-center font-extrabold text-primary text-lg md:text-xl shrink-0">
-              A
-            </div>
-          )}
+          <img 
+            src="logoakp.png" 
+            alt="Logo PT Adipura Karya Persada" 
+            className="h-10 md:h-12 w-auto object-contain shrink-0 bg-white p-1 rounded"
+          />
           <div className="flex flex-col">
             <span className="font-extrabold text-xs md:text-lg tracking-widest text-light group-hover:text-white transition-colors leading-tight">ADIPURA KARYA PERSADA</span>
             <span className="text-[6px] md:text-[9px] uppercase tracking-[0.2em] md:tracking-[0.3em] text-primary mt-0.5">General Contractor & Specialist</span>
