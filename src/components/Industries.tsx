@@ -4,27 +4,27 @@ const industries = [
   {
     title: 'Ruang Operasi (OK)',
     desc: 'Ruang bedah berstandar medis dengan tekanan positif, filtrasi HEPA (99.99%), & kontrol sterilitas absolut.',
-    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop' // Using hospital/medical image
+    image: 'ok.jpg' // Using hospital/medical image
   },
   {
     title: 'Ruang Isolasi',
     desc: 'Desain tekanan udara negatif khusus untuk pencegahan penyebaran penyakit infeksi (Airborne Infection Isolation).',
-    image: 'https://images.unsplash.com/photo-1583324113626-70df0f4deaab?q=80&w=2056&auto=format&fit=crop'
+    image: 'isolasi.jpg'
   },
   {
     title: 'Laboratorium',
     desc: 'Ruang analitik terpadu skala Biosafety Level (BSL) untuk riset, kalibrasi, maupun pengujian klinis.',
-    image: 'https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=80&w=2070&auto=format&fit=crop'
+    image: 'lab.jpg'
   },
   {
     title: 'Industri Farmasi',
     desc: 'Ruang produksi GMP compliant untuk manufaktur obat-obatan yang zero-contamination dan dust-free.',
-    image: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2070&auto=format&fit=crop'
+    image: 'farmasi.jpg'
   },
   {
     title: 'Industri Makanan & Minuman',
     desc: 'Pengembangan Cold Storage & Clean Room HACCP compliant untuk menjaga daya tahan produk konsolidasi.',
-    image: 'https://images.unsplash.com/photo-1558227691-41ea78d1f631?q=80&w=1974&auto=format&fit=crop'
+    image: 'fnb.jpg'
   }
 ];
 
