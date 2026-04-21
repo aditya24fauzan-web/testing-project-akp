@@ -5,7 +5,7 @@ export default function Clients() {
     "tsm.png", "rsadvent.png", "lc.png", "medion.png", "rsboyolali.png", 
     "biofarma.png", "persada.png", "combiphar.png", "rohto.png", "ot.png", 
     "prochiz.png", "otto.png", "sanbe.png", "rssanto.png", "u.png", 
-    "dlbs.png", "mepro.png"
+    "dlbs.png", "mepro.png", " tirta.png"
   ];
 
   return (
