@@ -93,7 +93,7 @@ export default function Products() {
           >
             <div className="aspect-[4/3] overflow-hidden relative">
               <img 
-                src="alumuniumex.jpg" 
+                src="alumuniumex.png" 
                 alt="Aluminium Extrusion Details" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
