@@ -4,7 +4,7 @@ export default function Clients() {
   const clientLogos = [
     "tsm.png", "rsadvent.png", "lc.png", "medion.png", "rsboyolali.png", 
     "biofarma.png", "persada.png", "combiphar.png", "rohto.png", "ot.png", 
-    "prochiz.png", "otto.jpg", "sanbe.png", "rssanto.png", "u.png", 
+    "prochiz.png", "otto.png", "sanbe.png", "rssanto.png", "u.png", 
     "dlbs.png", "mepro.png", "tirta.png"
   ];
 
