@@ -5,7 +5,7 @@ export default function Clients() {
     "tsm.png", "rsadvent.png", "lc.png", "medion.png", "rsboyolali.png", 
     "biofarma.png", "persada.png", "combiphar.png", "rohto.png", "ot.png", 
     "prochiz.png", "otto.png", "sanbe.png", "rssanto.png", "u.png", 
-    "dlbs.png", "mepro.png","tirta.png"
+    "dlbs.png", "mepro.png"
   ];
 
   return (
@@ -26,12 +26,12 @@ export default function Clients() {
           {[...clientLogos, ...clientLogos].map((logo, index) => (
             <div 
               key={index} 
-              className="flex items-center justify-center px-10 mx-6 bg-transparent transition-all cursor-pointer min-w-[150px]"
+              className="flex items-center justify-center px-12 mx-8 bg-transparent transition-all cursor-pointer min-w-[200px]"
             >
               <img 
                 src={`${logo}`} 
                 alt={`Client Logo ${index}`} 
-                className="h-16 md:h-20 w-auto object-contain transition-all duration-300"
+                className="h-24 md:h-32 w-auto object-contain transition-all duration-300 hover:scale-110"
               />
             </div>
           ))}
