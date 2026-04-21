@@ -136,7 +136,7 @@ export default function Contact() {
         {/* Map */}
         <div className="mt-20 rounded-2xl overflow-hidden border border-dark-gray h-[400px] w-full bg-dark-gray relative filter contrast-125">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.627690226348!2d107.6397368!3d-6.935026999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e866bb0776bd%3A0xb35151b1f9d501db!2sJl.%20Merkuri%20Tim.%20VI%2B%20No.3%2F135%2C%20Manjahlega%2C%20Kec.%20Rancasari%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040286!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" 
+            src="https://www.google.com/maps?q=PT+Adipura+Karya+Persada+Bandung&hl=id&z=17&output=embed" 
             width="100%" 
             height="100%" 
             style={{ border: 0 }} 
