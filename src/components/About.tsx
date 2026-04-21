@@ -15,7 +15,7 @@ export default function About() {
           >
             <div className="relative aspect-square md:aspect-[4/3] overflow-hidden border border-gray-600">
               <img 
-                src="/logoakp.png" 
+                src="logoakp.png" 
                 alt="Engineering Team at Work" 
                 className="w-full h-full object-cover grayscale opacity-80"
               />
