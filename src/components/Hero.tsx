@@ -33,7 +33,7 @@ export default function Hero() {
               CLEAN ROOM & COLD ROOM SPECIALIST
             </h2>
             <p className="text-lg text-gray-400 max-w-md leading-relaxed">
-              We are Specialist Customize Clean Room and Cold Room. Memberikan solusi terintegrasi dan konstruksi berkualitas tinggi untuk kebutuhan industri Anda.
+              Kami menyediakan layanan perancangan dan pembangunan Clean Room dan Cold Room sesuai kebutuhan. Memberikan solusi terintegrasi dan konstruksi berkualitas tinggi untuk kebutuhan industri Anda.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
