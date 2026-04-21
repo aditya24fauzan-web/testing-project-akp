@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/cr.jpg" 
+          src="cr.jpg" 
           alt="Clean Room Facility" 
           className="w-full h-full object-cover object-center grayscale opacity-60"
         />
