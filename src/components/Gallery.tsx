@@ -3,12 +3,12 @@ import { ZoomIn } from 'lucide-react';
 import { useState } from 'react';
 
 const galleryItems = [
-  { image: '/galeri1.png', title: 'GMP Clean Room' },
-  { image: '/galeri2.png', title: 'HEPA Filter Installatioan' },
-  { image: '/galeri3.png', title: 'Laboratorium Biologi' },
-  { image: '/fnb.jpg', title: 'Food Grade Cold Room' },
-  { image: '/cr.jpg', title: 'Ruang Operasi RS' },
-  { image: '/hvac' }
+  { image: 'galeri1.png', title: 'GMP Clean Room' },
+  { image: 'galeri2.png', title: 'HEPA Filter Installatioan' },
+  { image: 'galeri3.png', title: 'Laboratorium Biologi' },
+  { image: 'fnb.jpg', title: 'Food Grade Cold Room' },
+  { image: 'cr.jpg', title: 'Ruang Operasi RS' },
+  { image: 'hvac' }
 ];
 
 export default function Gallery() {
