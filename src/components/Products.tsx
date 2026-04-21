@@ -75,7 +75,7 @@ export default function Products() {
           >
             <div className="aspect-[4/3] overflow-hidden relative">
               <img 
-                src="/sp.jpg" 
+                src="sp.jpg" 
                 alt="Insulated Sandwich Panel Material" 
                 className="w-full h-full object-cover grayscale"
               />
@@ -94,7 +94,7 @@ export default function Products() {
           >
             <div className="aspect-[4/3] overflow-hidden relative">
               <img 
-                src="/alumuniumex.jpg" 
+                src="alumuniumex.jpg" 
                 alt="Aluminium Extrusion Details" 
                 className="w-full h-full object-cover grayscale"
               />
