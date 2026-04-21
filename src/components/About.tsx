@@ -19,7 +19,7 @@ export default function About() {
                 alt="Engineering Team at Work" 
                 className="w-full h-full object-cover opacity-80"
               />
-              <div className="absolute inset-0 bg-dark/20 mix-blend-multiply"></div>
+              <div className="absolute inset-0 bg-dark/20"></div>
             </div>
             
             {/* Experience Badge */}
