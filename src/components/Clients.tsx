@@ -16,7 +16,7 @@ export default function Clients() {
         </h2>
       </div>
 
-      <div className="relative w-full flex overflow-hidden group py-6">
+      <div className="relative w-full flex overflow-hidden group py-8">
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-dark to-transparent z-10 pointer-events-none"></div>
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-dark to-transparent z-10 pointer-events-none"></div>
         
@@ -26,12 +26,12 @@ export default function Clients() {
           {[...clientLogos, ...clientLogos].map((logo, index) => (
             <div 
               key={index} 
-              className="flex items-center justify-center px-10 mx-6 bg-transparent transition-all cursor-pointer min-w-[400px]"
+              className="flex items-center justify-center px-8 mx-4 bg-transparent transition-all cursor-pointer min-w-[500px]"
             >
               <img 
                 src={`${logo}`} 
                 alt={`Client Logo ${index}`} 
-                className="h-40 md:h-56 w-auto object-contain transition-all duration-300 hover:scale-110"
+                className="h-52 md:h-72 w-auto object-contain transition-all duration-300 hover:scale-110"
               />
             </div>
           ))}
