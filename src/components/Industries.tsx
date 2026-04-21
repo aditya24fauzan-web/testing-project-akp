@@ -4,22 +4,22 @@ const industries = [
   {
     title: 'Ruang Operasi (OK)',
     desc: 'Ruang bedah berstandar medis dengan tekanan positif, filtrasi HEPA (99.99%), & kontrol sterilitas absolut.',
-    image: 'ok.jpg' // Using hospital/medical image
+    image: 'ok.png' // Using hospital/medical image
   },
   {
     title: 'Ruang Isolasi',
     desc: 'Desain tekanan udara negatif khusus untuk pencegahan penyebaran penyakit infeksi (Airborne Infection Isolation).',
-    image: 'isolasi.jpg'
+    image: 'isolasi.png'
   },
   {
     title: 'Laboratorium',
     desc: 'Ruang analitik terpadu skala Biosafety Level (BSL) untuk riset, kalibrasi, maupun pengujian klinis.',
-    image: 'lab.jpg'
+    image: 'lab.png'
   },
   {
     title: 'Industri Farmasi',
     desc: 'Ruang produksi GMP compliant untuk manufaktur obat-obatan yang zero-contamination dan dust-free.',
-    image: 'farmasi.jpg'
+    image: 'farmasi.png'
   },
   {
     title: 'Industri Makanan & Minuman',
