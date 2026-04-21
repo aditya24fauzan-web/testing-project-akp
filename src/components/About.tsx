@@ -17,7 +17,7 @@ export default function About() {
               <img 
                 src="logoakp.png" 
                 alt="Engineering Team at Work" 
-                className="w-full h-full object-cover grayscale opacity-80"
+                className="w-full h-full object-cover opacity-80"
               />
               <div className="absolute inset-0 bg-dark/20 mix-blend-multiply"></div>
             </div>
