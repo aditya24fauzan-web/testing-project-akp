@@ -29,7 +29,7 @@ export default function Clients() {
               className="flex items-center justify-center px-10 mx-6 bg-transparent grayscale hover:grayscale-0 transition-all cursor-pointer min-w-[150px]"
             >
               <img 
-                src={`/${logo}`} 
+                src={`${logo}`} 
                 alt={`Client Logo ${index}`} 
                 className="h-16 md:h-20 w-auto object-contain brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-300"
               />
