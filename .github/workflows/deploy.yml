@@ -27,12 +27,12 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           
-      - name: Install dependencies (Bypass strict lock)
-        run: npm install
+      - name: Install dependencies (Abaikan Error Lock)
+        run: npm install --no-package-lock
         
-      - name: Build Web (Bypass Typescript checks)
+      - name: Build Web (Paksa Matang)
         run: npx vite build
         
       - name: Setup Pages
