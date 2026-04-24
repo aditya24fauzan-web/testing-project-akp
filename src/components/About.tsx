@@ -23,7 +23,7 @@ export default function About() {
             
             {/* Experience Badge */}
             <div className="absolute -bottom-6 -right-6 md:bottom-10 md:-right-10 glass p-6 shadow-xl flex items-center gap-4">
-              <div className="text-5xl border-r pr-4 border-primary/20 font-extrabold text-primary">10+</div>
+              <div className="text-5xl border-r pr-4 border-primary/20 font-extrabold text-primary">3+</div>
               <div className="text-[10px] text-gray-400 font-bold uppercase tracking-widest leading-relaxed">Tahun<br/>Pengalaman</div>
             </div>
           </motion.div>
